@@ -106,29 +106,29 @@ const Swap = () => {
   // Manage disabled trading pairs that should redirect users to V2
   useEffect(() => {
     const disabledSwaps = [
-      'BNB',
-      'BUSD',
-      'USDT',
-      'USDC',
       'CAKE',
-      'BUNNY',
-      'ETH',
-      'BTCB',
-      'AUTO',
-      'XVS',
-      'SAFEMOON',
-      'DAI',
-      'ADA',
-      'DOT',
-      'ElonGate',
-      'TWT',
-      'ALPACA',
-      'IOTX',
-      'BAND',
-      'ATOM',
-      'EOS',
-      'SFP',
-      'SWINGBY',
+      // 'BUSD',
+      // 'USDT',
+      // 'USDC',
+      // 'CAKE',
+      // 'BUNNY',
+      // 'ETH',
+      // 'BTCB',
+      // 'AUTO',
+      // 'XVS',
+      // 'SAFEMOON',
+      // 'DAI',
+      // 'ADA',
+      // 'DOT',
+      // 'ElonGate',
+      // 'TWT',
+      // 'ALPACA',
+      // 'IOTX',
+      // 'BAND',
+      // 'ATOM',
+      // 'EOS',
+      // 'SFP',
+      // 'SWINGBY',
     ]
     const inputCurrencySymbol = currencies[Field.INPUT]?.symbol || ''
     const outputCurrencySymbol = currencies[Field.OUTPUT]?.symbol || ''
@@ -376,7 +376,7 @@ const Swap = () => {
         onConfirm={handleConfirmWarning}
       />
       <SafeMoonWarningModal isOpen={transactionWarning.selectedToken === 'SAFEMOON'} onConfirm={handleConfirmWarning} />
-      <CardNav />
+      {/* <CardNav /> */}
       <AppBody>
         <Wrapper id="swap-page">
           <ConfirmSwapModal
