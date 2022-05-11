@@ -105,7 +105,27 @@ const config: MenuEntry[] = [
   //   ],
   // },
   {
-    label: 'IFO',
+    label: 'Launchpad',
+    icon: 'IfoIcon',
+    href: 'https://pancakeswap.finance/ifo',
+  },
+  {
+    label: 'Locks',
+    icon: 'IfoIcon',
+    href: 'https://pancakeswap.finance/ifo',
+  },
+  {
+    label: 'Utility & Tools',
+    icon: 'IfoIcon',
+    href: 'https://pancakeswap.finance/ifo',
+  },
+  {
+    label: 'Listing Alert',
+    icon: 'IfoIcon',
+    href: 'https://pancakeswap.finance/ifo',
+  },
+  {
+    label: 'KYC & Audit',
     icon: 'IfoIcon',
     href: 'https://pancakeswap.finance/ifo',
   },
@@ -117,26 +137,26 @@ const config: MenuEntry[] = [
         label: 'Contact',
         href: 'https://docs.pancakeswap.finance/contact-us',
       },
-      {
-        label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
-      },
-      {
-        label: 'Github',
-        href: 'https://github.com/pancakeswap',
-      },
-      {
-        label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
-      },
-      {
-        label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
-      },
-      {
-        label: 'Merch',
-        href: 'https://pancakeswap.creator-spring.com/',
-      },
+      // {
+      //   label: 'Voting',
+      //   href: 'https://voting.pancakeswap.finance',
+      // },
+      // {
+      //   label: 'Github',
+      //   href: 'https://github.com/pancakeswap',
+      // },
+      // {
+      //   label: 'Docs',
+      //   href: 'https://docs.pancakeswap.finance',
+      // },
+      // {
+      //   label: 'Blog',
+      //   href: 'https://pancakeswap.medium.com',
+      // },
+      // {
+      //   label: 'Merch',
+      //   href: 'https://pancakeswap.creator-spring.com/',
+      // },
     ],
   },
 ]
