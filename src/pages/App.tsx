@@ -9,6 +9,7 @@ import Web3ReactManager from '../components/Web3ReactManager'
 import { RedirectDuplicateTokenIds, RedirectOldAddLiquidityPathStructure } from './AddLiquidity/redirects'
 import { RedirectOldRemoveLiquidityPathStructure } from './RemoveLiquidity/redirects'
 import AddLiquidity from './AddLiquidity'
+import Home from './Home'
 import Pool from './Pool'
 import PoolFinder from './PoolFinder'
 import RemoveLiquidity from './RemoveLiquidity'
@@ -133,6 +134,7 @@ export default function App() {
                   <Popups />
                   <Web3ReactManager>
                     <Switch>
+                      <Route exact strict path="/home" component={Home} />
                       <Route exact strict path="/swap" component={Swap} />
                       <Route exact strict path="/find" component={PoolFinder} />
                       <Route exact strict path="/pool" component={Pool} />
